@@ -1,72 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>static format</title>
-  <meta charset="UTF-8">
-  <style media="screen">
-    /* eric meyer reset */
-    html, body, div, span, applet, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-    a, abbr, acronym, address, big, cite, code,
-    del, dfn, em, img, ins, kbd, q, s, samp,
-    small, strike, strong, sub, sup, tt, var,
-    b, u, i, center,
-    dl, dt, dd, ol, ul, li,
-    fieldset, form, label, legend,
-    table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed,
-    figure, figcaption, footer, header, hgroup,
-    menu, nav, output, ruby, section, summary,
-    time, mark, audio, video {
-      margin: 0;
-      padding: 0;
-      border: 0;
-      font-size: 100%;
-      font: inherit;
-      vertical-align: baseline;
-    }
-    
-    /* HTML5 display-role reset for older browsers */
-    article, aside, details, figcaption, figure,
-    footer, header, hgroup, menu, nav, section {
-      display: block;
-    }
-    
-    body {
-      line-height: 1;
-    }
-    
-    ol, ul {
-      list-style: none;
-    }
-    
-    html {
-      background-attachment: fixed;
-      background-position: center center;
-      background-repeat: no-repeat;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
-  </style>
   
-  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <title>static format</title>
+  
+  <meta charset="UTF-8"> 
+  <meta name="author" content="Jon Chretien"> 
+  <meta name="description" content="Static Format is the photography portfolio of Jon Chretien."> 
+  <meta name="keywords" content="jon chretien, photography, portfolio"> 
+  <meta name="Copyright" content="Copyright (c) <?php echo (date ("Y")) ?> Jon Chretien">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1.0"> 
+ 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <link rel="stylesheet" href="css/styles.min.css" media="all">
   
 </head>
 <body>
   
-  <section>
-    <h1>Static Format</h1>
-    <p>Static Format is the photography portfolio of Jon Chretien. The full site is currently being built, but in the meantime most of his work can be found on <a href="http://www.flickr.com/photos/truenotes">Flickr</a> and <a href="http://instagrid.me/jnchrtn/">Instagrid</a>.</p>
-  </section>
-  <footer>
-    <p>Copyright &copy; <?php date("Y"); ?> Jon Chretien. All rights reserved.</p>
-  </footer>
+  <div id="welcome">
+    <div class="inset">
+      <h1>Static Format</h1>
+      <p id="summary">Static Format is the photography portfolio of Jon Chretien. The full site is currently being built, but in the meantime most of his work can be found on <a href="http://www.flickr.com/photos/truenotes">Flickr</a> and <a href="http://instagrid.me/jnchrtn/">Instagrid</a>.</p>
+      <p id="footer">Copyright &copy; <?php echo (date ("Y")) ?> Jon Chretien. All rights reserved.</p>
+    </div>
+  </div>
   
   <script>
     (function() {
-      var photos = ['flags', 'liberty', 'subway', 'tahoe'], max = photos.length;
+      var photos = ['apollo', 'boardwalk', 'dog', 'trevi', 'window', 'wire'], max = photos.length;
       document.getElementsByTagName('html')[0].style.backgroundImage = 'url(img/' + photos[Math.floor(Math.random() * max)] + '.jpg)';
     })();
   </script>
