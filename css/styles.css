@@ -41,6 +41,8 @@ body {
 #welcome {
   background-color: #fff;
   background-color: rgba( 255, 255, 255, .8);
+  -moz-box-shadow: 3px 3px 35px 0 rgba( 0, 0, 0, .05);
+  box-shadow: 3px 3px 35px 0 rgba( 0, 0, 0, .05);
   margin: 101px auto 20px auto;
   padding: 38px 70px 32px 70px;
   text-align: left;
@@ -65,12 +67,13 @@ h1 {
 }
 
 a {
-  color: #a9a9a9;
+  color: #333;
+  font-weight: bold;
   text-decoration: none;
 }
 
 a:hover {
-  color: #999;
+  color: #666;
 }
 
 #footer {
