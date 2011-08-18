@@ -1,0 +1,3 @@
+#  Static Format
+
+Splash screen for my photography portfolio (in progress).
