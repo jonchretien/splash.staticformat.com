@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+
   <title>static format</title>
-  
+
   <meta charset="UTF-8"> 
   <meta name="author" content="Jon Chretien"> 
   <meta name="description" content="Static Format is the photography portfolio of Jon Chretien."> 
   <meta name="keywords" content="jon chretien, photography, portfolio"> 
   <meta name="Copyright" content="Copyright (c) <?php echo (date ("Y")) ?> Jon Chretien">
-  <meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1.0"> 
- 
+
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
   <link rel="stylesheet" href="css/styles.min.css" media="all">
-  
+
 </head>
 <body>
-  
+
   <div id="welcome">
     <h1>Static Format</h1>
     <p id="summary">Static Format is the photography portfolio of <a href="http://jonchretien.com/">Jon Chretien</a>. The full site is currently being built, but in the meantime most of his work can be found on <a href="http://www.flickr.com/photos/truenotes/">Flickr</a> and <a href="http://instagrid.me/jnchrtn/">Instagrid</a>.</p>
     <p id="footer">Copyright &copy; <?php echo (date ("Y")) ?> <a href="http://jonchretien.com/">Jon Chretien</a>. All rights reserved.</p>
   </div>
-  
+
   <script>
     (function() {
       var photos = ['apollo', 'boardwalk', 'dog', 'trevi', 'window', 'wire'], max = photos.length;
