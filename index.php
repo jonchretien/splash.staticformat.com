@@ -22,23 +22,7 @@
     <p id="footer">Copyright &copy; <?php echo (date ("Y")) ?> <a href="http://jonchretien.com/">Jon Chretien</a>. All rights reserved.</p>
   </div>
 
-  <script>
-    (function() {
-      var photos = ['apollo', 'boardwalk', 'dog', 'trevi', 'window', 'wire'], max = photos.length;
-      document.getElementsByTagName('html')[0].style.backgroundImage = 'url(img/' + photos[Math.floor(Math.random() * max)] + '.jpg)';
-    })();
-  </script>
-
-  <script>
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-953377-2']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+  <script>(function(){var a="apollo,boardwalk,dog,trevi,window,wire".split(","),b=a.length;document.getElementsByTagName("html")[0].style.backgroundImage="url(//s3.amazonaws.com/staticformat/"+a[Math.floor(Math.random()*b)]+".jpg)"})();var _gaq=[['_setAccount','UA-953377-2'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))</script>
   
 </body>
 </html>
