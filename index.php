@@ -18,7 +18,7 @@
 
   <div id="welcome">
     <h1>Static Format</h1>
-    <p id="summary">Static Format is the photography portfolio of <a href="http://jonchretien.com/">Jon Chretien</a>. The full site is currently being built, but in the meantime most of his work can be found on <a href="http://www.flickr.com/photos/truenotes/">Flickr</a> and <a href="http://instagrid.me/jnchrtn/">Instagrid</a>.</p>
+    <p id="summary">Static Format is the photography portfolio of <a href="http://jonchretien.com/">Jon Chretien</a>. The full site is currently being built, but in the meantime most of his work can be found on <a href="http://www.flickr.com/photos/truenotes/">Flickr</a> and <a href="http://instagrid.me/jnchrtn/?v=list">Instagram</a>.</p>
     <p id="footer">Copyright &copy; <?php echo (date ("Y")) ?> <a href="http://jonchretien.com/">Jon Chretien</a>. All rights reserved.</p>
   </div>
 
